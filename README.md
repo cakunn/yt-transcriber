@@ -4,7 +4,7 @@ Extract YouTube video transcripts as clean Markdown files — directly from Curs
 
 ## What It Does
 
-Pulls the transcript from any YouTube video and saves it as a Markdown file with frontmatter (title, author, published date, URL) in an `outputs/` folder. Uses [defuddle](https://github.com/nichochar/defuddle) for extraction.
+Pulls the transcript from any YouTube video and saves it as a Markdown file with frontmatter (title, author, published date, URL) in an `outputs/` folder. Uses [defuddle](https://github.com/kepano/defuddle) for extraction.
 
 ## Setup
 
@@ -55,5 +55,5 @@ Full transcript content...
 
 ## Dependencies
 
-- [defuddle](https://github.com/nichochar/defuddle) — content extraction
+- [defuddle](https://github.com/kepano/defuddle) — content extraction
 - [linkedom](https://github.com/WebReflection/linkedom) — server-side DOM parsing
